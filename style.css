@@ -1983,3 +1983,16 @@ body {
     opacity: 1;
   }
 }
+.message {
+  position: absolute;
+  top: 25%;              /* entre borde superior y el centro */
+  width: 100%;
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 10px gold;
+  font-family: Arial, sans-serif;
+  opacity: 0;            /* oculto al inicio */
+  transition: opacity 2s ease; /* aparece suavemente */
+}
